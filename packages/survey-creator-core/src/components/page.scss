@@ -326,6 +326,15 @@ svc-page {
 .svc-element__add-new-question {
   -webkit-tap-highlight-color: transparent;
   height: auto;
+  align-items: stretch;
+
+  button:first-of-type {
+    appearance: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    flex: 1;
+  }
 }
 
 .svc-add-new-item-button__text {

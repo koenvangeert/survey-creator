@@ -1098,6 +1098,7 @@ svc-question,
   justify-content: center;
 
   .svc-element__add-new-question {
+    display:flex;
     align-items: center;
     margin-top: calcSize(2);
     margin-left: 0;
